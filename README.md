@@ -1,15 +1,14 @@
 # DPDK-Framework
 Brief overview of OVS-DPDK installation and packet transfer between a virtual and real host.
 
-
-
 Specifications of the Equipment used:
 
-1)Lenovo T460 Thinkpad, 4GB RAM
-2)OS=Ubuntu 14.04
-3)Kernel Version=3.19.0-25-generic(can be checked with the command uname -r)
-4)eglibc 2.19(can be checked with ldd --version)
-5)The NIC used for this purpose is I219 Intel e1000e.
+1)Processor - Intel(R) Core(TM) i5-6200 CPU @ 2.30 GHz 4GB RAM
+2)4 GB RAM
+3)OS=Ubuntu 14.04
+4)Kernel Version=3.19.0-25-generic(can be checked with the command uname -r)
+5)eglibc 2.19(can be checked with ldd --version)
+6)The NIC used for this purpose is I219 Intel e1000e.
 
 OVS with DPDK and creation of an OVS bridge for communication between virtual and real host: 
 

@@ -3,12 +3,12 @@ Brief overview of OVS-DPDK installation and packet transfer between a virtual an
 
 Specifications of the Equipment used:
 
-1)Processor - Intel(R) Core(TM) i5-6200 CPU @ 2.30 GHz 4GB RAM
-2)4 GB RAM
-3)OS=Ubuntu 14.04
-4)Kernel Version=3.19.0-25-generic(can be checked with the command uname -r)
-5)eglibc 2.19(can be checked with ldd --version)
-6)The NIC used for this purpose is I219 Intel e1000e.
+1)Processor - Intel(R) Core(TM) i5-6200 CPU @ 2.30 GHz 4GB RAM  
+2)4 GB RAM  
+3)OS=Ubuntu 14.04  
+4)Kernel Version=3.19.0-25-generic(can be checked with the command uname -r)  
+5)eglibc 2.19(can be checked with ldd --version)  
+6)The NIC used for this purpose is I219 Intel e1000e.  
 
 OVS with DPDK and creation of an OVS bridge for communication between virtual and real host: 
 
@@ -79,9 +79,9 @@ Here we download the image of the kvm as cirros-0.3.5-x86_64-disk.img and alloca
 
 Pinging the real host for packets:
 
-1)Log in to the virtual host
-2)sudo ifconfig eth0 10.32.240.7/24
-3)ping 10.32.240.6
+1)Log in to the virtual host  
+2)sudo ifconfig eth0 10.32.240.7/24  
+3)ping 10.32.240.6  
 
 Result:
 
